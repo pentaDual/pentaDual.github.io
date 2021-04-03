@@ -20,6 +20,19 @@
     justify-content: space-around;
   }
   
+  nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    display: grid;
+    grid-template-column: 25% 25% 25% 25%;
+  }
+  
+  nav li{
+    display: inline;
+    text-align: center;
+    padding: 0px 5px;
+  }
+  
   .nav_item {
     color: black;
     background-color: orange;
@@ -39,11 +52,13 @@
     
   </body>
   
-  <div id="navbar">
-    <div class="nav_item">Home</div>
-    <div class="nav_item">Page1</div>
-    <div class="nav_item">Page2</div>
-    <div class="nav_item">Page3</div>
-  </div>
+  <nav id="navbar">
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Page1</a></li>
+      <li><a href="">Page2</a></li>
+      <li><a href="">Page3</a></li>
+    </ul>
+  </nav>
   
 </html>
