@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="./src/style.css" rel="stylesheet" type="text/css">
         <title>Pentadual (temp)</title>
     </head>
     
@@ -12,10 +13,10 @@
                     <img src="/src/pentadual.png" alt="logo">
                 </li>
                 <li class="element">
-                    <a href="#">Employee</a>
+                    <a href="./employee.html">Employee</a>
                 </li>
                 <li class="element">
-                    <a href="#">Employer</a>
+                    <a href="./employer.html">Employer</a>
                 </li>
                 <li class="element">
                     <a href="#">Home</a>
@@ -23,12 +24,19 @@
             </ul>
         </nav>
 
-        
+        <div id = "main-title">
+            <div class="flex">Hello</div>
+            <div class="break"></div>
+            <div class="flex">World</div>
+            <div class="break"></div>
+            <div class="break"></div>
+            <div class="flex"><a href="#intro" class="TransButton">Learn More</a></div>
+        </div>
         
         <div id="intro">
             <br><br><br>
             <div class="title">
-                Who are we...
+                Company name blahblahblah
             </div>
             <div class="content">
                 <div class="text">short description</div>
@@ -38,73 +46,3 @@
     </body>
 </html>
 
-<style>
-
-    #navbar {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    #navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #F8567B;
-    }
-
-    #navbar #logo {
-        float: left;
-        height: 50px;
-        width: auto;
-        margin-left: 10px;
-    }
-
-    #navbar #logo img {
-        height: 100%;
-    }
-    
-    #navbar .element {
-        float: right;
-        border-left: 1px solid #FAFAFA;
-    }
-    
-    #navbar .element:last-child {
-        border-left: none;
-    }
-    
-    #navbar .element a {
-        display: block;
-        color: #FAFAFA;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    #navbar .element a:hover {
-        color: #0C0C0C;
-    }
-
-    #intro {
-        background-color: rgba(251, 152, 173, 0.5);
-    }
-
-    #intro .title {
-        font-size: 75px;
-    }
-
-    #intro .content {
-        height: 300px;
-    }
-
-    #intro .content .text {
-        float: right;
-        padding: 10px 50px;
-    }
-
-    #intro .content .image {
-        float: left;
-        padding: 10px 50px;
-    }
-</style>
