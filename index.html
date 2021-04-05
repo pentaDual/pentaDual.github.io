@@ -1,64 +1,110 @@
 <!DOCTYPE html>
-<style>
-  
-  body {
-    background: black;
-    color: white;
-    positiion: absolute;
-    top: 5%;
-  }
-  
-  #navbar {
-    background-color: black;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 5%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  nav ul {
-    margin: 0px;
-    padding: 5px 0px 5px 0px;
-  }
-  
-  nav li {
-    display: inline;
-    background-color: orange;
-    text-align: center;
-  }
-  
-  nav li a {
-    color: black;
-  }
-  nav li a:hover {
-    color: white;
-  }
-  
-</style>
-
 <html>
-  <head>
-    <title>Oscar Tse's personal blog</title>
-  </head>
-  
-  <body>
+    <head>
+        <title>Pentadual (temp)</title>
+    </head>
     
-    <em>I hate foul language.</em> - Oscar, TSE<br>
-    <img alt="I love to play piano!" src="/src/DSC_0496.JPG" style = "height: 500px;">
-    
-  </body>
-  
-  <nav id="navbar">
-    <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Page1</a></li>
-      <li><a href="">Page2</a></li>
-      <li><a href="">Page3</a></li>
-    </ul>
-  </nav>
-  
+    <body style="margin: 0;">
+
+        <nav id="navbar">
+            <ul>
+                <li id="logo">
+                    <img src="/src/pentadual.png" alt="logo">
+                </li>
+                <li class="element">
+                    <a href="#">Employee</a>
+                </li>
+                <li class="element">
+                    <a href="#">Employer</a>
+                </li>
+                <li class="element">
+                    <a href="#">Home</a>
+                </li>
+            </ul>
+        </nav>
+
+        
+        
+        <div id="intro">
+            <br><br><br>
+            <div class="title">
+                Who are we...
+            </div>
+            <div class="content">
+                <div class="text">short description</div>
+                <div class="image"><img src=""></div>
+            </div>
+        </div>
+    </body>
 </html>
+
+<style>
+
+    #navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #F8567B;
+    }
+
+    #navbar #logo {
+        float: left;
+        height: 50px;
+        width: auto;
+        margin-left: 10px;
+    }
+
+    #navbar #logo img {
+        height: 100%;
+    }
+    
+    #navbar .element {
+        float: right;
+        border-left: 1px solid #FAFAFA;
+    }
+    
+    #navbar .element:last-child {
+        border-left: none;
+    }
+    
+    #navbar .element a {
+        display: block;
+        color: #FAFAFA;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    #navbar .element a:hover {
+        color: #0C0C0C;
+    }
+
+    #intro {
+        background-color: rgba(251, 152, 173, 0.5);
+    }
+
+    #intro .title {
+        font-size: 75px;
+    }
+
+    #intro .content {
+        height: 300px;
+    }
+
+    #intro .content .text {
+        float: right;
+        padding: 10px 50px;
+    }
+
+    #intro .content .image {
+        float: left;
+        padding: 10px 50px;
+    }
+</style>
