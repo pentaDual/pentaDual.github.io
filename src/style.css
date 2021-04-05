@@ -123,3 +123,39 @@ body, html {
 	position:relative;
 	top:1px;
 }
+
+.content-box{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0px;
+    border: 1px solid black;
+    font-size: 30px;
+    
+}
+
+#bg {
+    background-image: url(./woman2_blur.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 55px;
+}
+.button{
+    box-shadow: 0px 0px 0px 0px #ffffff;
+	background-color:#f8567b;
+	border-radius:45px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:45px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    width: 50%;
+}
