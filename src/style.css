@@ -1,3 +1,13 @@
+/*
+    Color Code:
+    white - #FFF
+    little dark red - #D12C4D
+    strong pink - #F8567B
+    light pink - rgba(251, 152, 173, 0.5)
+    black - #000
+    add other if you like ;-)
+*/
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -46,7 +56,7 @@ body, html {
 
 #navbar .element {
     float: right;
-    border-left: 1px solid #FAFAFA;
+    border-left: 1px solid #FFF;
     background-color: #F8567B;
 }
 
@@ -56,7 +66,7 @@ body, html {
 
 #navbar .element a {
     display: block;
-    color: #FAFAFA;
+    color: #FFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,11 +74,17 @@ body, html {
 }
 
 #navbar .element a:hover {
-    color: #0C0C0C;
+    color: #000;
 }
 
 #intro {
-    background-color: rgba(251, 152, 173, 0.5);
+    background: linear-gradient(rgba(251, 152, 173, 0.5), #FFF);
+    padding: 0px 20px;
+    padding-top: 10px;
+}
+
+#intro .title {
+    color: #000;
 }
 
 #intro .content {
@@ -158,4 +174,48 @@ body, html {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
     width: 50%;
+}
+
+#select-side {
+    background: #FFF;
+    padding: 0px 20px;
+}
+
+#select-side .title {
+    color: #D12C4D;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#select-side .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+#select-side .side {
+    display: grid;
+    grid-template-rows: 75fr 200fr;
+    grid-row-gap: 50px;
+    justify-items: center;
+}
+
+#select-side .side .text {
+    text-align: center;
+    font-size: 75px;
+}
+
+#select-side a {
+    text-decoration: none;
+    color: #000;
+}
+
+#select-side .side .image {
+    height: 200px;
+    width: auto;
+}
+
+#select-side img {
+    height: auto;
 }
