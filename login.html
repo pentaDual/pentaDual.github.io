@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--This document is for creating new pages. You simply can copy and paste the whole thing-->
+<!--NOTE: The background image is NOT included here-->
+<html>
+    <head>
+        <!--Paste the page outside src file. Otherwise, CSS file cannot be linked-->
+        <link href="./src/style.css" rel="stylesheet" type="text/css">
+        <link href="./src/hover.css" rel="stylesheet">
+        <link href="/src/login_style.css" rel="stylesheet" type="text/css">
+        <title>Pentadual</title>
+    </head>
+
+    <body>
+        <nav id="navbar">
+            <ul>
+                <li id="logo">
+                    <img src="/src/pentadual.png" alt="logo">
+                </li>
+                <li class="element">
+                    <a href="./employee.html">Employee</a>
+                </li>
+                <li class="element">
+                    <a href="./employer.html">Employer</a>
+                </li>
+                <li class="element">
+                    <a href="./index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <form action="action_page.php" method="post">
+                <div class="title">
+                    Member Login
+                </div>
+                
+                <div class="container">
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="username" required>
+                </div>
+
+                <div class="container">
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+                </div>
+
+                <div class="container">
+                    <button type="submit">Login</button>
+                </div>
+
+                <div class="container">
+                    <span><a href="#">Forgot password?</a></span>
+                </div>
+            </form>
+        </main>
+        
+    </body>
+</html>
