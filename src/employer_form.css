@@ -1,0 +1,52 @@
+    input {
+        border: 2px solid black;
+        border-radius: 2px;
+        width :100%;
+        padding: 12px 20px;
+        margin: 8px;
+        transition: background-color 0.5s;
+    }
+
+    input:focus,  textarea:focus {
+        background-color: lightblue;
+        transition: background-color 0.5s;
+    }
+
+    .form-title {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .bg-pink-form {
+        background-color: rgba(251, 152, 173, 0.5);
+        height: 200%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    }   
+
+    .name {
+        width: 50%;
+        text-align: left;
+    }
+
+    .sub-title {
+        font-size: 35px;
+        margin: 8px;
+    }
+
+    textarea{
+        height: 150px;
+        border: 2px solid black;
+        border-radius: 2px;
+        width :100%;
+        padding: 12px 20px;
+        margin: 8px;
+        transition: background-color 0.5s;
+        resize: none;
+    }
