@@ -278,5 +278,9 @@ body {
     color: black;
   }
 
+  #main-title .top{
+      vertical-align: top;
+  }
+
 
   
