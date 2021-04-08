@@ -282,5 +282,13 @@ body {
       vertical-align: top;
   }
 
+  .content-box #select{
+    width: 17%; 
+    height: 5%; 
+    float: left;
+    margin: 10px;
+    font-size: 23px;
+  }
+
 
   
