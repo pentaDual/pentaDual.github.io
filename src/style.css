@@ -106,8 +106,9 @@ body {
 }
 
 #intro .content .text {
-    float: right;
+    float: left;
     padding: 10px 50px;
+    font-size: 35px;
 }
 
 #intro .content .image {
