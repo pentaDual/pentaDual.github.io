@@ -9,7 +9,7 @@ main {
     justify-content: center;
 }
 
-form {
+#box {
     padding: 10px 20px 20px 20px;
     border: 1px solid #FFF;
 }
@@ -38,7 +38,7 @@ form {
     justify-self: flex-start;
 }
 
-.container button {
+.container #button {
     justify-self: center;
     grid-column: 1/3;
 }
