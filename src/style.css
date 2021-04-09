@@ -94,20 +94,24 @@ body {
 #intro {
     background: linear-gradient(rgba(251, 152, 173, 0.5), #FFF);
     padding: 0px 20px;
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 #intro .title {
     color: #000;
+    padding: 10px;
 }
 
 #intro .content {
     height: 300px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    text-align: center;
+
 }
 
 #intro .content .text {
-    float: left;
-    padding: 10px 50px;
+    padding: 20px;
     font-size: 35px;
 }
 
@@ -214,6 +218,7 @@ body {
 #select-side {
     background: #FFF;
     padding: 0px 20px;
+    padding-top: 100px;
 }
 
 #select-side .title {
@@ -290,6 +295,3 @@ body {
     margin: 10px;
     font-size: 23px;
   }
-
-
-  
