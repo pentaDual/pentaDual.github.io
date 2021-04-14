@@ -23,10 +23,17 @@ employer_form.css -- Employer form style
 login_style.css -- login style  
 
 <h2>Credit:  </h2>  
+
 1. hover.css  
+
  Hover.css (http://ianlunn.github.io/Hover/)  
+ 
  Version: 2.3.2  
+ 
  Author: Ian Lunn @IanLunn  
+ 
  Author URL: http://ianlunn.co.uk/  
+ 
  Github: https://github.com/IanLunn/Hover  
+ 
   
