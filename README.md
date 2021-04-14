@@ -4,10 +4,15 @@ This is the submission of HackUST 2021 -- Pentadual.
 Before browsing our source code, let me introduce to you about the code.  
 
 <h2>Section A: main HTML files</h2>  
+
 index.html -- Home directory  
-employer.html -- Employer site  
+
+employer.html -- Employer site
+
 emplyee.html -- Employee site  
+
 catalog.html -- Course catalog  
+
 
 <h2>Section B: CSS files</h2>  
 style.css -- Main style file  
